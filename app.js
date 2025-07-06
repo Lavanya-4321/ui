@@ -9,7 +9,7 @@ function init() {
         autoProcessQueue: false
     });
 
-    dz.on("addedfile", function () {
+    dz.on("addedfile", function () { 
         if (dz.files[1] != null) {
             dz.removeFile(dz.files[0]);
         }
