@@ -19,7 +19,7 @@ function init() {
         let imageData = file.dataURL;
 
         // ✅ Updated URL to point to your live Flask backend on Render
-        var url = "https://f-6-tce8.onrender.com/classify_image";
+        var url = "https://f-6-tce8.onrender.com";
 
         $.post(url, {
             image_data: imageData
